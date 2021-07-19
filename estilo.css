@@ -1,20 +1,50 @@
 @charset "UTF-8";
 
-body {
-    background-color: rgb(105, 105, 173);
-    color: yellow;
- font: italic;
 
-div#interface {
-    width: 900px;
-    margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px black rgba(0, 0, 0, 0.5);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddddd;
+    color: rgba(0, 0, 0, 0.8);
 }
 
-section#corpo {
-    color: black;
+div#interface {
+    width: 990px;
+    background-image: url(../portfolio/imagens/fundo-site.jpg);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10ox black rgba(0, 0, 0, 0.8);
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho h1 {
+    font-family: 'fontelogo', sans-serif;
+    
+    
+}
+nav#menu {
     display: block;
-    width: 500px;
-    float: left;
-    padding-right: 15px;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+
+section#corpo p{
+    color: rgb(25, 0, 255);
 }
