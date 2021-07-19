@@ -3,6 +3,7 @@
 body {
     background-color: rgb(105, 105, 173);
     color: royalblue;
+    font: arial 20pt;
 }
 
 div#interface {
