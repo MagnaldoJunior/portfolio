@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-color: rgb(105, 105, 173);
+    color: royalblue;
+}
+
 div#interface {
     background-color: bisque;
     width: 900px;
