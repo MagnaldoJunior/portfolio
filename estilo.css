@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 div#interface {
+    background-color: bisque;
     width: 900px;
     margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black rgba(0, 0, 0, 0.5);
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    padding-right: 15px;
+    background-color: #66666666;
 }
