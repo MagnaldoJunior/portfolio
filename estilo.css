@@ -2,17 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Goblin+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Otomanopee+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+SC:wght@100&family=Otomanopee+One&display=swap');
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     background-color: #dddddd;
-    color: rgba(0, 0, 0, 0.8);
+    color:black;
 }
 
 div#interface {
     width: 990px;
-    background-color: #cda3e6;
+    background-color: #ebe0f1;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10ox black rgba(0, 0, 0, 0.8);
     padding: 10px 10px 10px 10px;
@@ -25,15 +28,15 @@ header#cabecalho {
 
 header#cabecalho h1 {
     font-family: 'Audiowide', cursive;
-    font-size: 35pt;
+    font-size: 40pt;
     color: black;
     text-shadow: 1px 1px 1px white;
 }
 
 header#cabecalho h2{
-    font-family: Arial, sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     font-size: 15pt;
-    color: rgba(0, 0, 0, 0.8);
+    color: black);
     padding: 0px;
     margin-top: 0px;
 }
@@ -83,16 +86,16 @@ section#corpo {
 }
 
 section#corpo h2{
-    font-size: 13pt;
-    background-color: #cda3e6;
-    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    background-color: #ebe0f1;
+    font-family: 'Bebas Neue', cursive;
 }
 
 aside#lateral {
     display: block;
     width: 400px;
     float: right;
-    background-color: #cda3e6;
+    background-color: #ebe0f1;
     padding: 35px;
     margin-top: 10px;
     margin-right: 163px;
