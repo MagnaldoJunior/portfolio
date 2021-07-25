@@ -9,16 +9,17 @@
 
 body {
     font-family: 'Otomanopee One', sans-serif;
-    background-color: #dddddd;
+    background-color: #dab1d4;
     color:black;
 }
 
 div#interface {
-    width: 990px;
-    background-color: #ebe0f1;
+    width: 870px;
+    background-color: white;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10ox black rgba(0, 0, 0, 0.8);
-    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px black rgba(0, 0, 0, 0.8);
+    padding: 10px 10px 0px 0px;
+
 }
 
 header#cabecalho {
@@ -31,6 +32,8 @@ header#cabecalho h1 {
     font-size: 40pt;
     color: black;
     text-shadow: 1px 1px 1px white;
+    padding-left: 10px;
+    
 }
 
 header#cabecalho h2{
@@ -39,6 +42,7 @@ header#cabecalho h2{
     color: black);
     padding: 0px;
     margin-top: 0px;
+    padding-left: 10px;
 }
 
 p {
@@ -78,27 +82,30 @@ nav#menu li:hover {
 }
 
 section#corpo {
+    background-color: white;
     display: block;
     width: 500px;
     float: left;
     border-right: 3px solid rgba(0,0,0,.7);
     padding-right: 15px;
+    padding-left: 10px;
 }
 
 section#corpo h2{
     font-size: 18pt;
     background-color: #ebe0f1;
     font-family: 'Bebas Neue', cursive;
+    padding-left: 20px;
 }
 
 aside#lateral {
     display: block;
-    width: 400px;
+    width: 280px;
     float: right;
-    background-color: #ebe0f1;
-    padding: 35px;
-    margin-top: 10px;
-    margin-right: 163px;
+    background-color: white;
+    padding: 35.5px;
+    margin-top: 0px;
+    margin-right: 226px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, rgba(0,0,0,.5));
    
 }
